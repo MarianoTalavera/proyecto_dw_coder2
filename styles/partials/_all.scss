@@ -1,0 +1,63 @@
+.bodies {
+    background-color: #d7e8d2;
+
+    .container-fluid {
+        background: $gradienteuno;
+    }
+
+    .containerdebootstrap {
+        font-family: 'Noticia Text', serif;
+        padding: 20px;
+        background-image: $gradientedos;
+
+        .central-item {
+            background-image: $gradientedos;
+
+            .imgsmall {
+                width: 100%;
+                border-radius: 100px;
+                padding: 20px 50px;
+            }
+
+            .mapa {
+                padding: 0px 50px 0px 50px;
+                width: 100%;
+            }
+        }
+
+        .teaccesor {
+            width: 30%;
+            background-image: $gradienteuno;
+            padding: 40px;
+            border-radius: 40px;
+            display:inline-block ;
+            margin-inline: 1.5%;
+            margin-block: 25px;
+            position: relative;
+            border: 4px double $colordos;
+
+            .teaccesorgrid {
+                width: 100%;
+                height: 100%;
+                margin-bottom: 10px;
+            }
+        }
+
+
+        .otherimg {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+        }
+    }
+        
+}
+
+.nav-item a:hover {
+    text-decoration: underline;
+}
+
+#foot {
+    background-color: $colordos;
+    text-decoration: none ;
+}

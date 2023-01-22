@@ -1,0 +1,82 @@
+/* LISTO */
+*{
+	margin: 0;
+	padding: 0;
+    font-family: 'Noticia Text', serif;
+}
+
+/* LISTO */
+.container-fluid {
+    background: linear-gradient(#d7e8d2 ,#3ab02b);
+}
+
+/* LISTO */
+.nav-item a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+/* LISTO */
+#foot {
+    background-color: #519548;
+    text-decoration: none ;
+    
+}
+
+/* LISTO */
+.teaccesor {
+    width: 30%;
+    background-image: linear-gradient(#d7e8d2 ,#3ab02b );
+    padding: 40px;
+    border-radius: 40px;
+    display:inline-block ;
+    margin-inline: 1.5%;
+    margin-block: 25px;
+    position: relative;
+    border: 4px double #519548;
+}
+
+/* LISTO */
+.teaccesorgrid {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+}
+
+/* LISTO */
+.bodies {
+    background-color: #d7e8d2;
+}
+
+/* LISTO */
+.containerdebootstrap {
+    font-family: 'Noticia Text', serif;
+    padding: 20px;
+    background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%)
+}
+
+/* LISTO */
+.central-item {
+    background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%)
+}
+
+/* LISTO */
+.imgsmall {
+    width: 100%;
+    border-radius: 100px;
+    padding: 20px 50px;
+}
+
+/* LISTO */
+.otherimg {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+/* LISTO */
+.mapa {
+    padding: 0px 50px 0px 50px;
+    width: 100%;
+}
+
